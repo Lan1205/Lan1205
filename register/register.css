@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background: url(../login/images/loginphoto.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.box {
+    width: 500px;
+    padding: 10px 0px 20px 40px;
+    position: absolute;
+    top: 50%;
+    left: 76%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: 10px;
+    border-color: rgb(255, 255, 255);
+    color: rgb(219, 219, 219);
+}
+
+.box input {
+    padding: 5px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: 2px;
+}
+
+.box input[type="vorname"],
+.box input[type="nachname"] {
+    width: 40%;
+}
+
+.box input[type="email"] {
+    width: 62%;
+}
+
+select {
+    width: 33.5%;
+    border: 2px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.box button {
+    width: 25%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: rgb(98, 227, 236)
+}
+
+.box button a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(46, 46, 46);
+    font-size: 13.5px;
+}
+
+.box button:hover {
+    background-color: rgb(133, 228, 235)
+}
+
+.register {
+
+    width: 25%;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px;
+    background-color: rgb(98, 227, 236);
+    font-family: sans-serif;
+    color: rgb(46, 46, 46);
+    font-size: 13.5px;
+
+}
+
+.register:hover {
+    background-color: rgb(133, 228, 235)
+}
+
+.button {
+    margin: 100px auto;
+    width: 200px;
+    display: block;
+    font-size: large;
+
+    /* -webkit-appearance: button; */
+    -moz-appearance: button;
+    appearance: button;
+    text-align: center;
+    background-color: #215A8E;
+    border-radius: 15px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+.back {
+    margin: 40px;
+    width: 100px;
+    display: block;
+
+
+    /* -webkit-appearance: button; */
+    -moz-appearance: button;
+    appearance: button;
+    text-align: center;
+    background-color: #215A8E;
+    border-radius: 15px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.back:hover {
+    background-color: gray;
+}

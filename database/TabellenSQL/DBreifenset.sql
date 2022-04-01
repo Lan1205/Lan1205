@@ -1,0 +1,21 @@
+CREATE TABLE `reifenset` (
+ `setID` int(11) NOT NULL AUTO_INCREMENT,
+ `setNR` int(11) NOT NULL,
+ `mischungID` int(11) NOT NULL,
+ `bearbeitungID_V` int(11) NOT NULL,
+ `bearbeitungID_H` int(11) NOT NULL,
+ `bestellt` tinyint(1) NOT NULL,
+ `angekommen` tinyint(1) NOT NULL,
+ `heizdecke` tinyint(1) NOT NULL,
+ `montiert` tinyint(1) NOT NULL,
+ `verbraucht` tinyint(1) NOT NULL,
+ `hdTemp` decimal(10,2) NOT NULL,
+ `druck_HL` decimal(10,3) NOT NULL,
+ `druck_VL` decimal(10,3) NOT NULL,
+ `druck_HR` decimal(10,3) NOT NULL,
+ `druck_VR` decimal(10,3) NOT NULL,
+ `bestellt_um` datetime NOT NULL,
+ `bestellung_fertig` datetime NOT NULL,
+ `setAktiv` tinyint(1) NOT NULL,
+ PRIMARY KEY (`setID`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4
